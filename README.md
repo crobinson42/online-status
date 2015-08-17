@@ -43,3 +43,9 @@ onlineStatus.init({
 });
 ```
 * when passing in an element to show connection status, this element should be a container that contains an element to show the connection status - looks for an element with class of 'onlineStatusText' to write status.
+	for example:
+	```
+	<div>
+		<span class="onlineStatusText"></span>
+	</div>
+	```
