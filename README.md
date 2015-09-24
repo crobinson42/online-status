@@ -3,13 +3,16 @@
 A utility that monitors your connection status.
 
 Heres what we can do:
+```
 // - know when we're connected/disconnected by onlineStatus.status
 // - pass a callback to be triggered on status change
 //    or show constant connection status
 // - pass a DOM element to be used as the container for status
 //		* looks for an element with class of 'onlineStatusText' to write status
 // - get the connection status history log by onlineStatus.log
+```
 
+By default this module is available on 'window':
 ```
 window.onlineStatus
 ```
