@@ -17,6 +17,7 @@
 	-readme for init
 	-add init to write connection history to localStorage
 	-add support for a socket connection monitor (passed to init)
+	-make a REACT class that can be extended (aka new style mixin)
 	// - notify only when we're disconnected
 	// - ^ or show constant connection status
 */
